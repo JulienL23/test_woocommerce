@@ -13,5 +13,6 @@ function theme_enqueue_styles() {
 function change_add_to_cart_loop( $product ) {
     global $product; // this may not be necessary as it should have pulled the object in already
 
-    return '<a href="' . esc_url( $product->get_permalink( $product->id ) ) . '">bla</a>';
+    return '<a href="' . esc_url( $product->get_permalink( $product->id ) ) . '">Détails</a>';
 }*/
+

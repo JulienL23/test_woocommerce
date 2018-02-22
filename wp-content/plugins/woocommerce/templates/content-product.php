@@ -59,6 +59,9 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 */
 	do_action( 'woocommerce_after_shop_loop_item_title' );
 
+	/*
+	Bout de code pour ajouter la description courte dans la miniature produit.
+	*/
 	 ?>
     <p class="home_product_text">
     <?php
@@ -73,5 +76,8 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_add_to_cart - 10
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
+
+	echo '<div class="bplus"></div>';
+
 	?>
 </li>

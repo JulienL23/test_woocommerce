@@ -1,0 +1,11 @@
+2018-02-20T12:35:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\test_woocommerce\wp-content\themes\child-avada\functions.php on line 11 and at least 2 expected in C:\xampp\htdocs\test_woocommerce\wp-includes\plugin.php:106
+Stack trace:
+#0 C:\xampp\htdocs\test_woocommerce\wp-content\themes\child-avada\functions.php(11): add_filter('woocommerce_loo...')
+#1 C:\xampp\htdocs\test_woocommerce\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_woocommerce\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test_woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test_woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test_woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown
+
