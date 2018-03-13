@@ -59,15 +59,13 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 */
 	do_action( 'woocommerce_after_shop_loop_item_title' );
 
-	/*
-	Bout de code pour ajouter la description courte dans la miniature produit.
-	*/
-	 ?>
-    <p class="home_product_text">
-    <?php
-        echo $post->post_excerpt; ?>
-    </p>
-    <?php
+	?>
+	<p class="home_product_text">
+	<?php echo $post->post_excerpt; ?>
+	</p>
+	<div class="separateur"></div>
+	<div class="uno">
+	<?php
 
 	/**
 	 * woocommerce_after_shop_loop_item hook.
@@ -76,8 +74,12 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_add_to_cart - 10
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
-
-	echo '<div class="bplus"></div>';
-
 	?>
+	</div>
+		<div class="dos" id="prix">
+			<h3 id="parper">MENU | PERS.</h3>
+			<span class="price">
+				<?php echo $product->get_price_html() ?>
+			</span>
+		</div>
 </li>

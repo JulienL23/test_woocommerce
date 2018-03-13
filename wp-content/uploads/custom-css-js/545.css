@@ -16,6 +16,7 @@ Fin du commentaire */
 .home_product_text{
 
   padding-left:10px;
+  margin-bottom: 60px;
 }
 
 .fusion-row{
@@ -79,7 +80,7 @@ display: none;
     color: white;
     padding: 0px 0px 0px 0px;
     line-height: 33px;
-      margin: -10px 0px -10px 0px;
+    margin: -10px 0px -10px 85%;
 
 }
 
@@ -87,11 +88,64 @@ display: none;
 	
   opacity:0.5;
   transition: 0.5s;
+  
+  
+
 
 }
 
-/* resize des miniature */
+/* MIniature produit prix */
 
+/* bouton detail et detail (produit variable)*/
+.show_details_button{
+	display:none!important;
+}
+.button.product_type_variable.add_to_cart_button{
+	display:none!important;
+}
+
+/* PRIX */
+
+#prix{
+
+  margin: -55px -6px 4px 6px;
+}
+
+
+.fusion-price-rating .price{
+	display:none!important;
+}
+
+.product-details-container{
+    min-height: 30px;
+}
+
+.fusion-content-sep.sep-double.sep-solid{
+
+  display:none!important;
+
+}
+
+.product-type-simple #parper{
+
+  margin-top:0px!important;
+}
+
+.product-type-variable #parper{
+
+  margin-top:15px!important;
+}
+
+/*separator*/
+
+.separateur{
+
+    height: 1px;
+    width: 100%;
+    background: grey;
+  	opacity: 0.2;
+    margin-bottom: 20px;
+}
 
 
 </style>

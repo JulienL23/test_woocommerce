@@ -814,4 +814,3 @@ if ( 'true' === get_option( 'avada_imported_demo' ) ) {
 /* Omit closing PHP tag to avoid "Headers already sent" issues. */
 
 
-

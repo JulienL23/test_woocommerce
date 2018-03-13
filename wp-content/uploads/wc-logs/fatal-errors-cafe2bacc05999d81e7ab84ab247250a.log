@@ -9,3 +9,72 @@ Stack trace:
 #6 {main}
   thrown
 
+2018-03-09T16:50:25+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in C:\xampp\htdocs\test_woocommerce\wp-content\themes\Avada\functions.php:819
+Stack trace:
+#0 C:\xampp\htdocs\test_woocommerce\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\test_woocommerce\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test_woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test_woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-03-09T16:50:42+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in C:\xampp\htdocs\test_woocommerce\wp-content\themes\Avada\functions.php:819
+Stack trace:
+#0 C:\xampp\htdocs\test_woocommerce\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\test_woocommerce\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test_woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test_woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-03-09T16:51:00+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in C:\xampp\htdocs\test_woocommerce\wp-content\themes\Avada\functions.php:819
+Stack trace:
+#0 C:\xampp\htdocs\test_woocommerce\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\test_woocommerce\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test_woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test_woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-03-09T16:51:03+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in C:\xampp\htdocs\test_woocommerce\wp-content\themes\Avada\functions.php:819
+Stack trace:
+#0 C:\xampp\htdocs\test_woocommerce\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\test_woocommerce\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test_woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test_woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-03-09T16:51:16+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in C:\xampp\htdocs\test_woocommerce\wp-content\themes\Avada\functions.php:819
+Stack trace:
+#0 C:\xampp\htdocs\test_woocommerce\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\test_woocommerce\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test_woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test_woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-03-09T16:51:21+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in C:\xampp\htdocs\test_woocommerce\wp-content\themes\Avada\functions.php:819
+Stack trace:
+#0 C:\xampp\htdocs\test_woocommerce\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\test_woocommerce\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test_woocommerce\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown
+
+2018-03-09T16:51:24+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in C:\xampp\htdocs\test_woocommerce\wp-content\themes\Avada\functions.php:819
+Stack trace:
+#0 C:\xampp\htdocs\test_woocommerce\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\test_woocommerce\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test_woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test_woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
